@@ -1,0 +1,12 @@
+venv
+**/migrations/**
+__pycache__
+db.sqlite3(buckup)
+/AMAN collection.postman_collection.json
+/merchant dashboard test.postman_collection.json
+.idea
+/db.sqlite3(2)
+/db.sqlite3
+.env
+.env/
+/env/

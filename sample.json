@@ -1,0 +1,180 @@
+{
+  "responseCode": 200,
+  "responseDescription": "success",
+  "responseData": {
+    "transactionsData": [
+      {
+        "amount": 0.25,
+        "timestamp": 1674556370067,
+        "transactionDate": "2023-01-24 10:32:50"
+      },
+      {
+        "amount": 0.25,
+        "timestamp": 1674556687366,
+        "transactionDate": "2023-01-24 10:38:07"
+      },
+      {
+        "amount": 0.25,
+        "timestamp": 1674559389241,
+        "transactionDate": "2023-01-24 11:23:09"
+      },
+      {
+        "amount": 0.25,
+        "timestamp": 1674559433254,
+        "transactionDate": "2023-01-24 11:23:53"
+      },
+      {
+        "amount": 0.25,
+        "timestamp": 1674559467234,
+        "transactionDate": "2023-01-24 11:24:27"
+      },
+      {
+        "amount": 0.25,
+        "timestamp": 1674559495748,
+        "transactionDate": "2023-01-24 11:24:55"
+      },
+      {
+        "amount": 0.25,
+        "timestamp": 1674559783518,
+        "transactionDate": "2023-01-24 11:29:43"
+      },
+      {
+        "amount": 2.5,
+        "timestamp": 1674560052009,
+        "transactionDate": "2023-01-24 11:34:12"
+      },
+      {
+        "amount": 0.5,
+        "timestamp": 1674560052009,
+        "transactionDate": "2023-01-24 11:34:12"
+      },
+      {
+        "amount": 0.5,
+        "timestamp": 1674561296696,
+        "transactionDate": "2023-01-24 11:54:56"
+      },
+      {
+        "amount": 0.25,
+        "timestamp": 1674561512424,
+        "transactionDate": "2023-01-24 11:58:32"
+      },
+      {
+        "amount": 0.25,
+        "timestamp": 1674561662669,
+        "transactionDate": "2023-01-24 12:01:02"
+      },
+      {
+        "amount": 2.5,
+        "timestamp": 1674563665467,
+        "transactionDate": "2023-01-24 12:34:25"
+      },
+      {
+        "amount": 2.5,
+        "timestamp": 1674563723756,
+        "transactionDate": "2023-01-24 12:35:23"
+      },
+      {
+        "amount": 2.5,
+        "timestamp": 1674565740133,
+        "transactionDate": "2023-01-24 13:09:00"
+      },
+      {
+        "amount": 2.5,
+        "timestamp": 1674565807180,
+        "transactionDate": "2023-01-24 13:10:07"
+      },
+      {
+        "amount": 20.0,
+        "timestamp": 1674566366467,
+        "transactionDate": "2023-01-24 13:19:26"
+      },
+      {
+        "amount": 20.0,
+        "timestamp": 1674566409647,
+        "transactionDate": "2023-01-24 13:20:09"
+      },
+      {
+        "amount": 2.5,
+        "timestamp": 1674568029568,
+        "transactionDate": "2023-01-24 13:47:09"
+      },
+      {
+        "amount": 2.5,
+        "timestamp": 1674568121349,
+        "transactionDate": "2023-01-24 13:48:41"
+      },
+      {
+        "amount": 2.5,
+        "timestamp": 1674568551687,
+        "transactionDate": "2023-01-24 13:55:51"
+      },
+      {
+        "amount": 2.5,
+        "timestamp": 1674569927068,
+        "transactionDate": "2023-01-24 14:18:47"
+      },
+      {
+        "amount": 2.5,
+        "timestamp": 1674569983223,
+        "transactionDate": "2023-01-24 14:19:43"
+      },
+      {
+        "amount": 2.55,
+        "timestamp": 1674570544827,
+        "transactionDate": "2023-01-24 14:29:04"
+      },
+      {
+        "amount": 2.55,
+        "timestamp": 1674570607340,
+        "transactionDate": "2023-01-24 14:30:07"
+      },
+      {
+        "amount": 20.0,
+        "timestamp": 1674571235998,
+        "transactionDate": "2023-01-24 14:40:35"
+      },
+      {
+        "amount": 20.0,
+        "timestamp": 1674571312242,
+        "transactionDate": "2023-01-24 14:41:52"
+      },
+      {
+        "amount": 5.0,
+        "timestamp": 1674647774866,
+        "transactionDate": "2023-01-25 11:56:14"
+      },
+      {
+        "amount": 5.0,
+        "timestamp": 1674648142802,
+        "transactionDate": "2023-01-25 12:02:22"
+      },
+      {
+        "amount": 50.0,
+        "timestamp": 1674649449760,
+        "transactionDate": "2023-01-25 12:24:09"
+      },
+      {
+        "amount": 0.25,
+        "timestamp": 1674649966878,
+        "transactionDate": "2023-01-25 12:32:46"
+      },
+      {
+        "amount": 50.0,
+        "timestamp": 1674650050179,
+        "transactionDate": "2023-01-25 12:34:10"
+      }
+    ],
+    "transactionsTypeInfo": {
+      "refund": 2,
+      "sale": 23,
+      "installment": 0,
+      "void": 7
+    },
+    "comparedValues": {
+      "count": 22,
+      "total": 1587.69,
+      "mean": 72.16772727272728
+    }
+  }
+}
+

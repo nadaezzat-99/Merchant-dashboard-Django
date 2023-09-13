@@ -1,0 +1,14 @@
+all:
+    hosts:
+        youmna@92.205.2.176
+    vars:
+        repo_url: ssh://git@bitbucket.org/uniyoumna
+        repo: aman-merchants-django
+        home_dir: /home/youmna/public_html
+        repo_dir: "{{ home_dir }}/{{ repo }}"
+        django_dir: "{{ repo_dir }}/aman-merchant"
+        static_dir: "{{ home_dir }}/{{ repo_dir}}/{{django_dir}}/static"
+        django_project: yourproject
+        dbname: django
+        dbuser: django
+        dbpassword: "{{ lookup('password', 'postgresqlpasswd') }}"

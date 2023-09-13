@@ -1,0 +1,34 @@
+{
+    "connection_on_off": [ErrorDetail(string="Must be a valid boolean.", code="invalid")
+    ],
+    "terminal_id": [ErrorDetail(string="This field is required.", code="required")
+    ]
+}
+{
+    "aman_batch_id": "2345",
+    "amount": "46.10",
+    "received_transaction_id": "000014",
+    "type": "sale",
+    "date": "2022-09-14 15:20:20",
+    "header1": "AMAN E-PAYMENT",
+    "header2": "TEAM TECH",
+    "header3": "Giza",
+    "mapping_type": "void-sale",
+    "batch_id": "220101",
+    "stan": "000014",
+    "is_settled": False,
+    "settlement_reference": None,
+    "settlement_date": None,
+    "rrn": "136522000014",
+    "mdr": "0",
+    "currency": "EGP",
+    "entry_mode": "Chip",
+    "connection_on_off": true,
+    "emv_trx": True,
+    "dcc_trx": False,
+    "is_installment": False,
+    "is_void": True,
+    "response_code": "00",
+    "response_message": "Approved",
+    "auth_id": "937643"
+}

@@ -1,0 +1,1 @@
+from notification_manager.models.notification_models import Notification

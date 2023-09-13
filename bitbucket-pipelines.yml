@@ -1,0 +1,39 @@
+#  Template python-build
+
+#  This template allows you to validate your python code.
+#  The workflow allows running tests and code linting on the default branch.
+
+image: python:3.8
+
+pipelines:
+    branches:
+       master:
+        - step:
+            name: Test
+            caches:
+              - pip
+            script:
+              - pip install -r requirements.txt
+
+    custom:
+      production:
+      - parallel:
+        - step:
+            name: Test
+            caches:
+              - pip
+            script:
+              - if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        
+      - step:
+            name: 'Deploying App to server'
+            deployment: production
+            script:
+                - echo "Logging using FTP"
+                - pipe: atlassian/ftp-deploy:0.3.0
+                  variables:
+                      USER: $ftp_user
+                      PASSWORD: $ftp_password
+                      SERVER: $ftp_host
+                      REMOTE_PATH: $ftp_remote_path
+                      LOCAL_PATH: ''
